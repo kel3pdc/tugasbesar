@@ -24,7 +24,7 @@ public class DTest {
     {
     
     D math = new D();
-    System.out.println("awal test");
+    System.out.println("awal test ");
     
     }
     
