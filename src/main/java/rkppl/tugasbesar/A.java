@@ -4,10 +4,7 @@
  */
 package rkppl.tugasbesar;
 
-/**
- *
- * @author ASUS
- */
+
 
 import rkppl.tugasbesar.AddAndSubInterface;
 

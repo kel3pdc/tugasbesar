@@ -4,10 +4,6 @@
  */
 package rkppl.tugasbesar;
 
-/**
- *
- * @author ASUS
- */
 public class C extends Math{
 	private double n1;
 	private double n2;
@@ -35,7 +31,6 @@ public class C extends Math{
 		B b = new B();
 		System.out.println(b.div(getN1(), getN2()));
 	}
-	
 	
 	public String toString() {
 		// TODO Auto-generated method stub

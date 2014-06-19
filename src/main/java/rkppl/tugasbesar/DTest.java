@@ -20,6 +20,7 @@ import rkppl.tugasbesar.D;
 public class DTest {
     
     @Before
+    public void awalTest()
     {
     
     D math = new D();
@@ -29,14 +30,16 @@ public class DTest {
     
     
     @Test
+    public void test1()
     {
-    
-        AssertEquals("Seharusnya", 2, math.D(1,1));
+         
+        AssertEquals("Seharusnya", 2, Math.D(1,1));
     
     }
     
     
     @Test
+    public void test2()
     {
         Math.toString("11");
         AssertSame("Harusnya", 44, Math.toString);
@@ -45,6 +48,7 @@ public class DTest {
 
     
     @After
+    public void akhirtest()
     {
     System.out.println("akhir test");
     }
